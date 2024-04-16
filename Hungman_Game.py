@@ -1,5 +1,5 @@
 import random
-import Hungmanstage
+import Hungman_stages
 word_list = ['apple','banana','potato']
 lives = 6
 chosen_word = random.choice(word_list)
@@ -25,4 +25,4 @@ while not game_over:
     if '_' not in display:
         game_over = True
         print("You winn!!!")
-    print(Hungmanstage.stages[lives])
+    print(Hungman_stages.stages[lives])
